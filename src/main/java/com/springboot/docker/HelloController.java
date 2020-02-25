@@ -13,7 +13,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "<h1>Hello Spring-Boot Docker ！！！跑起来 ~~~~</h1>";
+        return "<h1>Hello Spring-Boot Docker ！！！自动化部署 </h1>";
     }
 
 }
