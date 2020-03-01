@@ -1,0 +1,16 @@
+package com.ytooo.declar
+dialect "java"
+
+declare Entity
+    feel : String
+    continued : String
+    para1 : String
+end
+
+rule "love"
+when
+    $l : Entity(feel == "sad" && continued == "永远")
+then
+    System.out.println("自定义事件执行： " + $l.getContinued());
+end
+
